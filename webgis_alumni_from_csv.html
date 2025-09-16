@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peta Alumni</title>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' />
+    <style>#map { height: 100vh; }</style>
+</head>
+<body>
+    <div id='map'></div>
+    <script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'></script>
+    <script>
+        var map = L.map('map').setView([25.3, 51.5], 10);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Rizna Trinayana</b><br>Angkatan: 2009<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>dr. Rakhmat</b><br>Angkatan: 1984<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Benny</b><br>Angkatan: 1989<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Elza</b><br>Angkatan: 1986<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Handoko</b><br>Angkatan: 1995<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Helen</b><br>Angkatan: 1996<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Handar</b><br>Angkatan: 1999<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>dr. Ayunda</b><br>Angkatan: 2001<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Rina</b><br>Angkatan: 2000<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Reza</b><br>Angkatan: 2002<br>Kota: Al-Sadd<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Ridho</b><br>Angkatan: 2007<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Sunardi</b><br>Angkatan: 1983<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Catur Pamularsih</b><br>Angkatan: 2009<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Dwi Winoto</b><br>Angkatan: 1997<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Angga</b><br>Angkatan: 1998<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Rojiah</b><br>Angkatan: 1991<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Neni Qurrotuaini</b><br>Angkatan: 1992<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Ika</b><br>Angkatan: 1997<br>Kota: Westbay<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Arif Zaenuri</b><br>Angkatan: 1991<br>Kota: Lusail<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>M. Jadid</b><br>Angkatan: 2002<br>Kota: Lusail<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Hafidz R M</b><br>Angkatan: 2015<br>Kota: Lusail<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Sam</b><br>Angkatan: 2017<br>Kota: Lusail<br>Pekerjaan: Oil and Gas');
+        L.marker([25.318283144226406, 51.52696676275706]).addTo(map).bindPopup('<b>Riandi</b><br>Angkatan: 2015<br>Kota: Lusail<br>Pekerjaan: Oil and Gas');
+
+    </script>
+</body>
+</html>
